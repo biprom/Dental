@@ -32,7 +32,7 @@ public class DentalWorkCycle extends Thread {
 			
 			
 			System.out.println("Bram is sexy!!! ");
-			System.out.println("parameter = " + sd.isLight());
+//			System.out.println("parameter = " + sd.isLight());
 //			sharedData.setGasAANUIT(true);
 //			System.out.println("parameter = " + sharedData.toString());
 //			
