@@ -1,19 +1,23 @@
 package com.dental;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 
 import com.dental.IO.DigInput_PCF;
 import com.dental.IO.DigOutput_PCF;
 
+
 public class DentalWorkCycle extends Thread {
 	
+	@Autowired
 	Data sd;
 	
 	//get shared data from Bean
 		
 		
-		public DentalWorkCycle(Data sharedData){
-			this.sd = sharedData;
+		
+		public DentalWorkCycle(){
+			
 		}
 	
 		//Initialisatie digitale outputs	
@@ -32,7 +36,7 @@ public class DentalWorkCycle extends Thread {
 			
 			
 			System.out.println("Bram is sexy!!! ");
-//			System.out.println("parameter = " + sd.isLight());
+			System.out.println("parameter = " + sd.isLight());
 //			sharedData.setGasAANUIT(true);
 //			System.out.println("parameter = " + sharedData.toString());
 //			
