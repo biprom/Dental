@@ -11,31 +11,34 @@ import org.springframework.stereotype.Controller;
 import com.dental.SharedData;
 import com.dental.DentalWorkCycle;
 
-
+@Component
 public class DentalWorkCycleRunner {
 	
+	DentalWorkCycle dwc;
 	
-	
-	public DentalWorkCycleRunner() {
+	@Autowired
+	public DentalWorkCycleRunner(DentalWorkCycle dentalWorkCycle) {
+		this.dwc = dentalWorkCycle;
 		
 	}
 
-	DentalWorkCycle wc = new DentalWorkCycle();
-	Thread thread= new Thread(wc);
+	//DentalWorkCycle wc = new DentalWorkCycle(null);
+	
 	
 	
 	
 	
 	@PostConstruct
 	public void init() {
+		Thread thread= new Thread(dwc);
 		thread.start();
 	}
 	
 	@SuppressWarnings("deprecation")
 	@PreDestroy
 	public void destroy() {
-		if (wc != null) {
-			wc.stop();
+		if (dwc != null) {
+			dwc.stop();
 		}
 	}
 

@@ -18,6 +18,13 @@ import com.vaadin.ui.VerticalLayout;
 
 public class DentalUI extends UI {
 	
+	Data sd;
+	
+	@Autowired
+	public DentalUI(Data sharedData) {
+		this.sd = sharedData;
+	}
+
 	@Autowired
 	private SpringViewProvider viewProvider;
 	

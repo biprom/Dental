@@ -21,7 +21,28 @@ public class DigOutput_PCF {
 	// create custom MCP23017 GPIO provider
 	PCF8574GpioProvider gpioProvider;
 
-	GpioPinDigitalOutput d1, d2, d3, d4, d5, d6, d7, d8;
+	public GpioPinDigitalOutput d1;
+
+
+	public GpioPinDigitalOutput d2;
+
+
+	public GpioPinDigitalOutput d3;
+
+
+	public GpioPinDigitalOutput d4;
+
+
+	public GpioPinDigitalOutput d5;
+
+
+	public GpioPinDigitalOutput d6;
+
+
+	public GpioPinDigitalOutput d7;
+
+
+	public GpioPinDigitalOutput d8;
 
 	public DigOutput_PCF(int busnr, int adressnr) {
 
