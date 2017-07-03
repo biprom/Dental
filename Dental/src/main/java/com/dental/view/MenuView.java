@@ -38,26 +38,29 @@ public class MenuView extends BuildingDentalDesign implements View {
 			public void buttonClick(ClickEvent event) {
 				
 				if( sd.isStatusgebouw1()== true){
-					sd.setStatusgebouw1(true);
+					sd.setGebouw1(true);
 					try {
 						TimeUnit.MILLISECONDS.sleep(1000);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-					sd.setBureauAlain(false);
-					//bUitbereding1.setCaption("UIT");
+					sd.setGebouw1(false);
+					sd.setStatusgebouw1(false);
+					
 				}
 				else{
-					sd.setBureauAlain(false);
+					
+					sd.setGebouw1(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(3000);
+						TimeUnit.MILLISECONDS.sleep(1000);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-					sd.setBureauAlain(false);
-					//bUitbereding1.setCaption("AAN");
+					sd.setGebouw1(false);
+					sd.setStatusgebouw1(true);
+					
 				}
 				
 
