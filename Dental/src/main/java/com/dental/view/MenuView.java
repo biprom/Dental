@@ -30,7 +30,7 @@ public class MenuView extends BuildingDentalDesign implements View {
 		
 		this.sd = sharedData;
 		
-		//sturing UI Uitbreiding 1
+		//sturing UI Uitbreiding 200
 		
 		bUitbreding1.addClickListener(new Button.ClickListener() {
 
@@ -40,12 +40,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatusuitbereiding1()== true){
 					sd.setUitbereiding1(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setUitbereiding1(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatusuitbereiding1(false);
 					bUitbreding1.setStyleName("danger");
 					
@@ -55,12 +61,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setUitbereiding1(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setUitbereiding1(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatusuitbereiding1(true);
 					bUitbreding1.setStyleName("friendly");
 			
@@ -80,12 +92,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatusgebouw1()== true){
 					sd.setGebouw1(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setGebouw1(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatusgebouw1(false);
 					bGebouw1.setStyleName("danger");
 					
@@ -94,12 +112,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setGebouw1(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setGebouw1(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatusgebouw1(true);
 					bGebouw1.setStyleName("friendly");
 					
@@ -117,12 +141,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatusuitbereiding2GietMetZand()== true){
 					sd.setUitbereiding2GietMetZand(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setUitbereiding2GietMetZand(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatusuitbereiding2GietMetZand(false);
 					bGietZand.setStyleName("danger");
 					
@@ -131,12 +161,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setUitbereiding2GietMetZand(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setUitbereiding2GietMetZand(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatusuitbereiding2GietMetZand(true);
 					bGietZand.setStyleName("friendly");
 					
@@ -154,12 +190,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatusuitbereiding2StaalOpslTechn()== true){
 					sd.setUitbereiding2StaalOpslTechn(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setUitbereiding2StaalOpslTechn(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatusuitbereiding2StaalOpslTechn(false);
 					bStaalOpslTechn.setStyleName("danger");
 					
@@ -168,12 +210,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setUitbereiding2StaalOpslTechn(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setUitbereiding2StaalOpslTechn(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatusuitbereiding2StaalOpslTechn(true);
 					bStaalOpslTechn.setStyleName("friendly");
 					
@@ -191,12 +239,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatuszoneGarage()== true){
 					sd.setZoneGarage(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneGarage(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneGarage(false);
 					bGarage.setStyleName("danger");
 					
@@ -205,12 +259,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setZoneGarage(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneGarage(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneGarage(true);
 					bGarage.setStyleName("friendly");
 					
@@ -228,12 +288,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatuszoneGieten()== true){
 					sd.setZoneGieten(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneGieten(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneGieten(false);
 					bGieten.setStyleName("danger");
 					
@@ -242,12 +308,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setZoneGieten(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneGieten(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneGieten(true);
 					bGieten.setStyleName("friendly");
 					
@@ -265,12 +337,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatuszoneMetaal1()== true){
 					sd.setZoneMetaal1(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneMetaal1(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneMetaal1(false);
 					bMetaal1.setStyleName("danger");
 					
@@ -279,12 +357,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setZoneMetaal1(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneMetaal1(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneMetaal1(true);
 					bMetaal1.setStyleName("friendly");
 					
@@ -302,12 +386,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatuszoneStaal1a()== true){
 					sd.setZoneStaal1a(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneStaal1a(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneStaal1a(false);
 					bStaal1.setStyleName("danger");
 					
@@ -316,12 +406,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setZoneStaal1a(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneStaal1a(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneStaal1a(true);
 					bStaal1.setStyleName("friendly");
 					
@@ -339,12 +435,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatuszoneKronen()== true){
 					sd.setZoneKronen(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneKronen(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneKronen(false);
 					bKronen.setStyleName("danger");
 					
@@ -353,12 +455,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setZoneKronen(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneKronen(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneKronen(true);
 					bKronen.setStyleName("friendly");
 					
@@ -376,12 +484,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatuszoneMetaal2()== true){
 					sd.setZoneMetaal2(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneMetaal2(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneMetaal2(false);
 					bMetaal2.setStyleName("danger");
 					
@@ -390,12 +504,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setZoneMetaal2(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneMetaal2(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneMetaal2(true);
 					bMetaal2.setStyleName("friendly");
 					
@@ -413,12 +533,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatuszoneStaal1b()== true){
 					sd.setZoneStaal1b(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneStaal1b(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneStaal1b(false);
 					bStaal2.setStyleName("danger");
 					
@@ -427,12 +553,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setZoneStaal1b(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneStaal1b(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneStaal1b(true);
 					bStaal2.setStyleName("friendly");
 					
@@ -450,12 +582,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatusgarageStockage()== true){
 					sd.setGarageStockage(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setGarageStockage(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatusgarageStockage(false);
 					bStock.setStyleName("danger");
 					
@@ -464,12 +602,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setGarageStockage(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setGarageStockage(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatusgarageStockage(true);
 					bStock.setStyleName("friendly");
 					
@@ -487,12 +631,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatusbureauAlain()== true){
 					sd.setBureauAlain(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setBureauAlain(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatusbureauAlain(false);
 					bBureauAlain.setStyleName("danger");
 					
@@ -501,12 +651,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setBureauAlain(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setBureauAlain(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatusbureauAlain(true);
 					bBureauAlain.setStyleName("friendly");
 					
@@ -524,12 +680,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatuszoneLandscape1a()== true){
 					sd.setZoneLandscape1a(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneLandscape1a(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneLandscape1a(false);
 					bLandscape1.setStyleName("danger");
 					
@@ -538,12 +700,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setZoneLandscape1a(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneLandscape1a(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneLandscape1a(true);
 					bLandscape1.setStyleName("friendly");
 					
@@ -561,12 +729,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatuszoneLandscape1b()== true){
 					sd.setZoneLandscape1b(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneLandscape1b(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneLandscape1b(false);
 					bLandscape2.setStyleName("danger");
 					
@@ -575,12 +749,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setZoneLandscape1b(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneLandscape1b(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneLandscape1b(true);
 					bLandscape2.setStyleName("friendly");
 					
@@ -598,12 +778,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 				if( sd.isStatuszoneInkom()== true){
 					sd.setZoneInkom(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneInkom(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneInkom(false);
 					bInkom.setStyleName("danger");
 					
@@ -612,12 +798,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 					
 					sd.setZoneInkom(true);
 					try {
-						TimeUnit.MILLISECONDS.sleep(1000);
+						TimeUnit.MILLISECONDS.sleep(200);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					sd.setZoneInkom(false);
+					try {
+						TimeUnit.MILLISECONDS.sleep(200);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					sd.setStatuszoneInkom(true);
 					bInkom.setStyleName("friendly");
 					
@@ -635,12 +827,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 						if( sd.isStatuszoneSpray()== true){
 							sd.setZoneSpray(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setZoneSpray(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatuszoneSpray(false);
 							bSpray.setStyleName("danger");
 							
@@ -649,12 +847,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 							
 							sd.setZoneSpray(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setZoneSpray(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatuszoneSpray(true);
 							bSpray.setStyleName("friendly");
 							
@@ -672,12 +876,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 						if( sd.isStatuszoneMeten()== true){
 							sd.setZoneMeten(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setZoneMeten(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatuszoneMeten(false);
 							bMeten.setStyleName("danger");
 							
@@ -686,12 +896,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 							
 							sd.setZoneMeten(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setZoneMeten(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatuszoneMeten(true);
 							bMeten.setStyleName("friendly");
 							
@@ -709,12 +925,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 						if( sd.isStatussecretZone()== true){
 							sd.setSecretZone(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setSecretZone(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatussecretZone(false);
 							bSecret.setStyleName("danger");
 							
@@ -723,12 +945,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 							
 							sd.setSecretZone(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setSecretZone(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatussecretZone(true);
 							bSecret.setStyleName("friendly");
 							
@@ -746,12 +974,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 						if( sd.isStatuszoneZirkonium()== true){
 							sd.setZoneZirkonium(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setZoneZirkonium(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatuszoneZirkonium(false);
 							bZirconium.setStyleName("danger");
 							
@@ -760,12 +994,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 							
 							sd.setZoneZirkonium(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setZoneZirkonium(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatuszoneZirkonium(true);
 							bZirconium.setStyleName("friendly");
 							
@@ -783,12 +1023,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 						if( sd.isStatuszonePorcelein1()== true){
 							sd.setZonePorcelein1(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setZonePorcelein1(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatuszonePorcelein1(false);
 							bPorcelein1.setStyleName("danger");
 							
@@ -797,12 +1043,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 							
 							sd.setZonePorcelein1(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setZonePorcelein1(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatuszonePorcelein1(true);
 							bPorcelein1.setStyleName("friendly");
 							
@@ -820,12 +1072,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 						if( sd.isStatuszonePorcelein2()== true){
 							sd.setZonePorcelein2(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setZonePorcelein2(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatuszonePorcelein2(false);
 							bPorcelein2.setStyleName("danger");
 							
@@ -834,12 +1092,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 							
 							sd.setZonePorcelein2(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setZonePorcelein2(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatuszonePorcelein2(true);
 							bPorcelein2.setStyleName("friendly");
 							
@@ -857,12 +1121,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 						if( sd.isStatuskitchenette()== true){
 							sd.setKitchenette(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setKitchenette(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatuskitchenette(false);
 							bKitchenette.setStyleName("danger");
 							
@@ -871,12 +1141,18 @@ public class MenuView extends BuildingDentalDesign implements View {
 							
 							sd.setKitchenette(true);
 							try {
-								TimeUnit.MILLISECONDS.sleep(1000);
+								TimeUnit.MILLISECONDS.sleep(200);
 							} catch (InterruptedException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							sd.setKitchenette(false);
+							try {
+								TimeUnit.MILLISECONDS.sleep(200);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 							sd.setStatuskitchenette(true);
 							bKitchenette.setStyleName("friendly");
 							
